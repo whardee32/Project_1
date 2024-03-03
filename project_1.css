@@ -1,69 +1,73 @@
 .text-center {
     text-align: center;
 }
-
 .container {
     border: solid black 30px;
     outline: solid rgb(46, 162, 239) 10px;
     outline-offset: -22px;
     border-radius: 15px;
-    width: 100rem;
+    width: 78rem;
+    height: 56rem;
     margin-left: auto;
     margin-right: auto;
-    bottom: 50rem;
-    
-    }
-    .slider-wrapper {
-        position: relative;
-        max-width: 80rem;
-        max-height: 80rem;
-        margin: 0 auto;
-    }
-    .slider {
-        display: flex;
-        aspect-ratio: 4/4;
-        overflow-x: auto;
-        scroll-snap-type: x mandatory;
-        box-shadow: o 1.5rem 3rem -.75rem hsla(0, 0%, 0%, .25);
-        border-radius: 10px;
-    }
   
-    .slider img {
-        flex: 1 0 100%;
-        scroll-snap-align: start;
-        object-fit: cover;
     
     }
-    .slider-nav {
-        display: flex;
-        column-gap: 1rem;
-        position: absolute;
-        bottom: 5rem;
-        left: 50%;
-        transform: translateX(-50%);
-        z-index: 1;
-    
+.slider-wrapper {
+    position: relative;
+    max-width: 80rem;
+    max-height: 4%;
+    margin: 0 auto;
+    z-index: 0;
     }
-    .slider-nav a {
-        width: 1rem;
-        height: 1rem;
-        border-radius: 50%;
-        background-color: black;
-        opacity: .75;
-        transition: opacity ease 250ms;
-    }
+.slider {
+  display: flex;
+  aspect-ratio: 4/4;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-snap-align: start;
+  box-shadow: o 1.5rem 3rem -.75rem hsla(0, 0%, 0%, .25);
+  border-radius: 10px;
+  position: absolute;
+  height: 52rem;
+  width: 78rem;
+}
+  
+.slider img {
+  flex: 1 0 100%;
+  scroll-snap-align: start;
+  object-fit: cover;           
+}
+.slider-nav {
+  display: flex;
+  column-gap: 1rem;
+  position: absolute;
+  bottom: -47rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  overflow-x: auto;
     
-    .slider-nav a:hover {
-        background-color: white;
-    }
+}
+.slider-nav a {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background-color: black;
+  opacity: .75;
+  transition: opacity ease 250ms;
+}
+    
+.slider-nav a:hover {
+  background-color: white;
+}
     
     
-    .slidertext
-    {
-        text-align: center;
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        text-decoration: underline;
-    }
+.slidertext {
+  text-align: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: underline;
+}
 
 .video_smoke {
 height: auto;
@@ -215,4 +219,22 @@ aspect-ratio: 5/4;
   font-family: "Tomorrow", sans-serif;
   font-weight: 700;
   font-style: normal;
+}
+
+.btn-secondary {
+  background-color: rgb(46, 162, 239);
+  border-radius: 5px;
+  color: white;
+  border: solid black 2px;
+}
+
+.pic {
+  height: 50rem;
+  width: 15.5rem;
+  z-index: 0;
+  border-radius: 15px;
+}
+
+.body {
+
 }

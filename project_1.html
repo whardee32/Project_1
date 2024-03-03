@@ -8,11 +8,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script defer src="https://kit.fontawesome.com/d6069989ee.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <title>AI-Smoke Irons</title>
 </head>
-<body>
+<body class="body">
     <section id="navbar">
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
@@ -26,7 +27,7 @@
                 <a class="nav-link active" aria-current="page" href="#Images">Product Images |</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Product Options |</a>
+                <a class="nav-link" href="#athletes">Callaway Athletes |</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -34,17 +35,16 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="#Survey">Customer Survey</a></li>
-                  <li><a class="dropdown-item" href="#">Data Usage</a></li>
-                  <li><a class="dropdown-item" href="#">Reviews</a></li>
+                  <li><a class="dropdown-item" href="#data">Data Usage</a></li>
                 </ul>
               </li>
             </form>
           </div>
         </div>
-      </nav>
-      <h1 class="tomorrow-extrabold">The Next <span class="material-symbols-outlined">bolt</span><span class="cyan">Evolution</span><span class="material-symbols-outlined">bolt</span> of Irons</h1>  
+      </nav><br><br>
+      <h1 class="tomorrow-extrabold">The Next <i class="fa-solid fa-bolt"></i><span class="cyan">Evolution</span><i class="fa-solid fa-bolt"></i> of Irons</h1>  
         <Section class="video_smoke">
-          <video width="100%" height="100%" autoplay loop>
+          <video width="100%" height="80%" autoplay loop>
             <source src="Images/Smoke_Background.mp4" type="video/mp4">
           </video>
         </Section>
@@ -53,16 +53,16 @@
       <section class="container">
         <div class="slider-wrapper">
           <div class="slider">
-            <img id="slide-1" src="Images/SMOKE.jpg" alt="Base iron with smoke background">
+            <img class="pic" id="slide-1" src="Images/irons-2024-paradym-ai-smoke___5.png" alt="Close up of the base iron">
             <div class="carousel-caption">
             </div>
-            <img id="slide-2" src="Images/irons-2024-paradym-ai-smoke___5.png" alt="Close up of the base iron">
+            <img class="pic" id="slide-2" src="Images/SMOKE.jpg" alt="Base iron with smoke background">
            
-            <img id="slide-3" src="Images/AI_SMOKE_HL.webp" alt="Close up of the HL iron">
+            <img class="pic" id="slide-3" src="Images/AI_SMOKE_HL.jpg" alt="Close up of the HL iron">
            
-            <img id="slide-4" src="Images/SMOKE_HL_BALL.jpg" alt="HL iron behind a ball">
+            <img class="pic" id="slide-4" src="Images/SMOKE_HL_BALL.jpg" alt="HL iron behind a ball">
            
-             <img id="slide-5" src="Images/Irons in the bag.jpg" alt="Full set of irons in the bag">
+             <img class="pic" id="slide-5" src="Images/Irons in the bag.jpg" alt="Full set of irons in the bag">
           
             </div>
           <div class="slider-nav">
@@ -74,13 +74,18 @@
           
           </button>
         </div><br><br><br><br><br><br><br><br><br><br><br><br><br>
-      </Section><br><br>
-      <h1>Trusted by the pros</h1>
-      <img src="Images/John_Rahm.jpg" alt="John Rahm">
-      <img src="Images/Chris_Kirk.jpg" alt="Chris Kirk">
-      <img src="Images/Xander.webp" alt="Xander Schauffle">
-        <form>
-  <br><br><h3 class="tomorrow-semibold" id="Survey">Contact Information</h3>
+      </Section><br><br><br>
+    <section id="athletes">
+      <h1 class="tomorrow-extrabold"><i class="fa-solid fa-trophy"></i>Trusted by the pros<i class="fa-solid fa-trophy"></i></h1><br><br>
+      <img src="Images/John_Rahm.jpg" alt="John Rahm" class="rounded float-left" width="470px" height="500px">
+      <img src="Images/Chris_Kirk.jpg" alt="Chris Kirk" class="rounded float-middle" width="470px" height="500px">
+      <img src="Images/Xander Shauffele.webp" alt="Xander Schauffle" class="rounded float-right" width="470px" height="500px">
+      <img src="Images/Sam Burns.avif" alt="Sam Burns" class="rounded float-right" height="500px" width="475px"><br><br><br><br>
+      <h1 class="tomorrow-extrabold"><i class="fa-solid fa-square-poll-vertical"></i>Take Our Survey!<i class="fa-solid fa-square-poll-vertical"></i></h1>
+    </section>
+    <Section id="Survey">
+    <form>
+  <br><br><h3 class="tomorrow-semibold">Contact Information</h3>
   <div class="row">
     <div class="col-2">
       <input type="text" class="form-control" placeholder="First name">
@@ -193,14 +198,14 @@
     </div>
     </div>
     <br><br>
-</form>
+  </form>
       </section>
-  <button type="button" class="btn-primary">Submit Info</button><br><br><br><br>
+    <button type="button" class="btn-primary">Submit Info</button><br><br><br><br>
    
-  <button type="button" class="btn-primary2" data-bs-toggle="modal" data-bs-target="#exampleModal">
-    Data Privacy
-  </button>
-  
+    <button type="button" class="btn-primary2" data-bs-toggle="modal" data-bs-target="#exampleModal" id="data">
+      Data Privacy
+    </button>
+  </Section>
   <!-- Modal -->
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
@@ -215,7 +220,7 @@
           <br><br>Thank you for your trust.
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn-secondary" data-bs-dismiss="modal">Close</button>
         </div>
       </div>
     </div>
@@ -223,7 +228,7 @@
   
   <footer>
         
-    </footer>
+  </footer>
 
 
 
