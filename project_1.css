@@ -87,6 +87,7 @@ aspect-ratio: 5/4;
     font-family: "Tomorrow", sans-serif;
     font-weight: 100;
     font-style: normal;
+    text-align: center;
   }
   
   .tomorrow-thin-italic {
@@ -147,6 +148,7 @@ aspect-ratio: 5/4;
     font-family: "Tomorrow", sans-serif;
     font-weight: 600;
     font-style: normal;
+    margin-left: 10px;
   }
   
   .tomorrow-semibold-italic {
@@ -181,7 +183,7 @@ aspect-ratio: 5/4;
 
 .btn-primary {
   width: 10rem;
-  height: 5rem;
+  height: 3rem;
   background-color: rgb(46, 162, 239);
   margin-left: 10px;
   border-radius: 15px;
@@ -233,8 +235,4 @@ aspect-ratio: 5/4;
   width: 15.5rem;
   z-index: 0;
   border-radius: 15px;
-}
-
-.body {
-
 }
