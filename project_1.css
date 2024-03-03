@@ -175,6 +175,14 @@ aspect-ratio: 5/4;
     font-style: normal;
     text-align: center;
   }
+
+  .tomorrow-extrabold2 {
+    font-family: "Tomorrow", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    text-align: center;
+    margin-top: -250px;
+  }
   
   .tomorrow-extrabold-italic {
     font-family: "Tomorrow", sans-serif;
@@ -235,4 +243,8 @@ aspect-ratio: 5/4;
   width: 15.5rem;
   z-index: 0;
   border-radius: 15px;
+}
+
+.pro_pic {
+  padding: 2px;
 }
